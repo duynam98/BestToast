@@ -97,8 +97,6 @@ class LevelProgress @JvmOverloads constructor(
             step += 5
         }
 
-        canvas?.drawCircle()
-
     }
 
     override fun onMeasure(widthMeasureSpec: Int, heightMeasureSpec: Int) {

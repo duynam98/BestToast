@@ -5,8 +5,10 @@ import android.widget.Toast
 
 class BestToast {
 
-    fun toastLib(context: Context?){
-        Toast.makeText(context, "Best Lib Toas Android", Toast.LENGTH_LONG).show()
+    companion object{
+        fun toastLib(context: Context?){
+            Toast.makeText(context, "Best Lib Toast Android", Toast.LENGTH_LONG).show()
+        }
     }
 
 }
